@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-image: url('https://cdn.wallpapersafari.com/14/38/aYEfz0.jpg');
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+
+  margin-left: 30px;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.s1 {
+  font-family: caveat;
+  color: #e81313;
+  font-size: 40px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+.s2 {
+  color: #5408ee;
+  font-family: playfair;
+  font-size: 20px;
+  margin-left: 5px;
+}

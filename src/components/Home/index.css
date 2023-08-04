@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.home-container {
+  background-image: url('https://cdn.wallpapersafari.com/42/28/ciBDh0.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding: 50px;
+}
+.heading {
+  color: #ffffff;
+  font-family: playfair display;
+  margin-left: 60px;
+  font-size: 40px;
+  padding-top: 100px;
+}
+.style {
+  color: red;
+  font-size: 50px;
+}
+.paragraph {
+  margin-left: 60px;
+  color: #0bd53a;
+  font-family: caveat;
+  font-size: 28px;
+  font-weight: 800;
+  width: 300px;
+}
+.button {
+  background-color: transparent;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding: 20px;
+  width: 200px;
+  border-color: #d58b0b;
+  border-style: solid;
+  border-radius: 5px;
+  font-family: playfair display;
+  font-weight: 500;
+}

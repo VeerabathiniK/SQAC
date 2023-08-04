@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+.contact-container {
+  background-image: url('https://wallpapercave.com/wp/wp6944127.jpg');
+  background-size: cover;
+  padding: 30px;
+  height: 130vh;
+}
+.contact-heading {
+  text-align: center;
+  color: #77d50b;
+  font-size: 30px;
+}
+.user-input {
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 50px;
+  width: 200px;
+  border-color: cornflowerblue;
+  border-style: groove;
+  border-radius: 10px;
+  color: black;
+}
+.password-container {
+  margin-top: 30px;
+}
+.text-area {
+  margin-top: 30px;
+  margin-left: 48px;
+  border-radius: 28px;
+}
+.submit-button {
+  background-color: green;
+  border: none;
+  color: #ffffff;
+  margin-left: 300px;
+}
+.footer {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.head {
+  color: #77d50b;
+  font-weight: bold;
+}
+.address {
+  color: #ffffff;
+  width: 200px;
+}

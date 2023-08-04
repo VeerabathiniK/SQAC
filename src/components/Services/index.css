@@ -1,0 +1,86 @@
+/* Write your CSS code here */
+
+.about-container {
+  background-image: url('https://mooka.ie/img/sliderimages/slider-services-background.jpg');
+  height: 120vh;
+  background-size: cover;
+  padding: 25px;
+}
+.about-heading {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+  color: #0bd53a;
+  font-family: playfair display;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.card1 {
+  background-color: #7a0bd5;
+  height: 180px;
+  width: 880px;
+  padding: 10px;
+  padding-left: 2px;
+  border-radius: 20px;
+
+  margin-top: 20px;
+}
+.h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #84d50b;
+  font-family: playfair display;
+  margin-left: 20px;
+}
+
+.p1 {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.card2 {
+  background-color: #d50b81;
+  height: 130px;
+  width: 880px;
+  padding: 2px;
+  padding-left: 2px;
+  border-radius: 20px;
+  overflow-y: auto;
+  margin-top: 40px;
+}
+.h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0bd5c4;
+  font-family: playfair display;
+  margin-left: 20px;
+}
+.p2 {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.card3 {
+  background-color: #0bd541;
+  height: 130px;
+  width: 880px;
+  padding: 2px;
+  padding-left: 2px;
+  border-radius: 20px;
+
+  margin-top: 40px;
+}
+.h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #d50bd5;
+  font-family: playfair display;
+  margin-left: 20px;
+}
+.p3 {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 20px;
+}
