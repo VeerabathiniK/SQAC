@@ -10,7 +10,7 @@ const Header = () => (
         <img
           alt="wave"
           className="logo"
-          src="https://www.logolynx.com/images/logolynx/8e/8e111925c8c0ca4a746278eeafc290c6.png"
+          src="https://res.cloudinary.com/dobt9633l/image/upload/v1691307521/2to7ypme_dtrn95.png"
         />
       </Link>
       <h1 className="title">
@@ -26,13 +26,18 @@ const Header = () => (
         </Link>
       </li>
       <li className="link-item">
-        <Link className="route-link" to="/services">
+        <Link to="/services" className="route-link">
           Services
         </Link>
-      </li>
-      <li className="link-item">
-        <Link className="route-link" to="/contact">
-          Contact
+        <Link to="/contact" className="route-link">
+          Contact us
+        </Link>
+        <Link to="/careers" className="route-link">
+          Careers
+        </Link>
+
+        <Link to="/about" className="route-link">
+          About us
         </Link>
       </li>
     </ul>

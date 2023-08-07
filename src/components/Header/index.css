@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-image: url('https://cdn.wallpapersafari.com/14/38/aYEfz0.jpg');
 }
 
 @media (max-width: 575px) {
@@ -19,15 +18,15 @@
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-right: 8px;
 }
 
 .title {
   color: #12022f;
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -49,17 +48,21 @@
   font-weight: bold;
   text-decoration: none;
   margin-left: 16px;
+  margin-right: 20px;
+}
+.section-service {
+  border: none;
 }
 .s1 {
-  font-family: caveat;
-  color: #e81313;
-  font-size: 40px;
+  font-family: playfair display;
+  color: #1a6bed;
+  font-size: 33px;
   margin-left: 5px;
   margin-top: 0px;
 }
 .s2 {
-  color: #5408ee;
+  color: black;
   font-family: playfair;
-  font-size: 20px;
+  font-size: 26px;
   margin-left: 5px;
 }

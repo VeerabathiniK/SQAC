@@ -1,0 +1,55 @@
+.Application-container {
+}
+
+.apl-image {
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+}
+.apl-heading {
+  color: #ffffff;
+  font-weight: 100;
+  background-color: #01333b;
+  padding: 30px;
+  margin-top: 0px;
+  font-family: roboto;
+}
+.apl-heading2 {
+  text-align: center;
+  font-weight: 400;
+  font-family: roboto;
+  font-size: 23px;
+}
+.apl-paragraph {
+  text-align: center;
+  font-weight: 400;
+  font-family: roboto;
+  font-size: 13px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.apl-1 {
+  width: 400px;
+  height: 200px;
+  margin-left: 40px;
+}
+.scale-content {
+  padding: 30px;
+  width: 50%;
+}
+.heading-scale {
+  font-family: roboto;
+  font-weight: 500;
+}
+.scale {
+  font-family: roboto;
+}
+.image-scale-container {
+  width: 50%;
+  padding: 30px;
+}

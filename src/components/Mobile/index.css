@@ -1,0 +1,59 @@
+.mbl-1 {
+  height: 60vh;
+  width: 100vw;
+  background-size: cover;
+}
+.mbl-heading {
+  color: #ffffff;
+  font-weight: 100;
+  padding: 30px;
+  background-color: #0f2e5a;
+  margin-top: 0px;
+  font-family: roboto;
+}
+.mbl-heading2 {
+  margin-left: 200px;
+  font-weight: 500;
+  color: #0f2e5a;
+  font-family: roboto;
+}
+.mbl-para {
+  margin-left: 200px;
+
+  color: #0f2e5a;
+  font-family: roboto;
+}
+.container2 {
+  background-color: #b7c6db;
+  padding: 30px;
+}
+.mobile-heading {
+  color: #0f2e5a;
+  font-family: roboto;
+  text-align: center;
+}
+.last-container {
+  display: flex;
+  flex-direction: row;
+}
+.mobile-image-container {
+  width: 50%;
+}
+.mobile-main-points {
+  width: 50%;
+  margin-top: 40px;
+}
+.point {
+  font-family: roboto;
+  color: #0f2e5a;
+  font-weight: 400;
+}
+.paragraph-point {
+  color: black;
+  font-family: roboto;
+}
+.mobile-main-points2 {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 100px;
+}
