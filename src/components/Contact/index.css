@@ -1,86 +1,172 @@
 /* Write your CSS code here */
-.contact-container {
-  background-image: url('https://www.pro-tech.net/wp-content/uploads/2020/03/contact-us-banner.jpg');
-  background-size: cover;
-  padding: 40px;
-  height: 50vh;
+@media only screen and (min-width: 767px) {
+  .contact-container {
+    background-image: url('https://www.pro-tech.net/wp-content/uploads/2020/03/contact-us-banner.jpg');
+    background-size: cover;
+    padding: 40px;
+    height: 50vh;
+  }
+  .contact-heading {
+    color: black;
+    font-size: 30px;
+    font-family: roboto;
+    text-decoration: underline;
+  }
+  .contact-container2 {
+    padding: 50px;
+    display: flex;
+  }
+  .write {
+    color: #053347;
+    font-family: roboto;
+  }
+  .para {
+    color: black;
+    font-family: roboto;
+    width: 800px;
+  }
+  .contact-image {
+    width: 300px;
+  }
+  .last {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .final {
+    color: #053347;
+    font-family: roboto;
+    margin-left: 40px;
+  }
+  .para-final {
+    font-size: 15px;
+    font-family: roboto;
+    margin-left: 40px;
+  }
+  .sheet {
+    text-align: flex-end;
+    background-color: #052b47;
+    padding: 30px;
+    margin-left: 700px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+  }
+  .name {
+    padding: 10px;
+    margin: 20px;
+  }
+  .text-area {
+    margin-left: 20px;
+  }
+  .btn {
+    border: none;
+    background-color: chartreuse;
+  }
+  .address-heading {
+    color: green;
+    font-family: roboto;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  .address-paragraph {
+    color: black;
+    font-family: roboto;
+    margin-left: 65px;
+    font-size: 15px;
+    width: 150px;
+  }
+  .mail {
+    color: green;
+    font-family: roboto;
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  .address-paragraph2 {
+    margin-left: 65px;
+  }
 }
-.contact-heading {
-  color: black;
-  font-size: 30px;
-  font-family: roboto;
-  text-decoration: underline;
-}
-.contact-container2 {
-  padding: 50px;
-  display: flex;
-}
-.write {
-  color: #053347;
-  font-family: roboto;
-}
-.para {
-  color: black;
-  font-family: roboto;
-  width: 800px;
-}
-.contact-image {
-  width: 300px;
-}
-.last {
-  display: flex;
-  flex-direction: column;
-  margin-left: 40px;
-}
-.final {
-  color: #053347;
-  font-family: roboto;
-  margin-left: 40px;
-}
-.para-final {
-  font-size: 15px;
-  font-family: roboto;
-  margin-left: 40px;
-}
-.sheet {
-  text-align: flex-end;
-  background-color: #052b47;
-  padding: 30px;
-  margin-left: 700px;
-  width: 400px;
-  height: 400px;
-  border-radius: 20px;
-}
-.name {
-  padding: 10px;
-  margin: 20px;
-}
-.text-area {
-  margin-left: 20px;
-}
-.btn {
-  border: none;
-  background-color: chartreuse;
-}
-.address-heading {
-  color: green;
-  font-family: roboto;
-  margin-left: 60px;
-  font-size: 20px;
-}
-.address-paragraph {
-  color: black;
-  font-family: roboto;
-  margin-left: 65px;
-  font-size: 15px;
-  width: 150px;
-}
-.mail {
-  color: green;
-  font-family: roboto;
-  margin-left: 60px;
-  font-size: 20px;
-}
-.address-paragraph2 {
-  margin-left: 65px;
+@media only screen and (max-width: 767px) {
+  .contact-container {
+    background-image: url('https://www.pro-tech.net/wp-content/uploads/2020/03/contact-us-banner.jpg');
+    background-size: cover;
+    padding: 20px;
+    height: 30vh;
+    max-width: 400px;
+  }
+  .contact-heading {
+    color: black;
+    font-size: 20px;
+    font-family: roboto;
+    text-decoration: underline;
+  }
+  .contact-container2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .write {
+    color: #053347;
+    font-family: roboto;
+    font-family: 15px;
+  }
+  .para {
+    color: black;
+    font-family: roboto;
+    width: 300px;
+  }
+  .sheet {
+    text-align: flex-start;
+    background-color: #052b47;
+    padding: 30px;
+    margin-left: 30px;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .name {
+    padding: 10px;
+    margin: 20px;
+  }
+  .final {
+    color: #053347;
+    font-family: roboto;
+    margin-left: 40px;
+  }
+  .para-final {
+    font-size: 15px;
+    font-family: roboto;
+    margin-left: 40px;
+  }
+  .text-area {
+    display: none;
+  }
+  .btn {
+    border: none;
+    background-color: chartreuse;
+    margin-left: 70px;
+  }
+  .address-heading {
+    color: green;
+    font-family: roboto;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .address-paragraph {
+    color: black;
+    font-family: roboto;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 150px;
+  }
+  .mail {
+    color: green;
+    font-family: roboto;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .address-paragraph2 {
+    margin-left: 20px;
+  }
 }

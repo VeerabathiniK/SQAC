@@ -1,150 +1,270 @@
 /* Write your CSS code here */
-.home-container {
-}
-.image-container-home {
-  background-image: url('https://th.bing.com/th/id/R.46ef0f2f42982e8f579c89f6356a94bc?rik=QRUgShlLmURgCw&riu=http%3a%2f%2fdarwinbiz.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground-img_02.png&ehk=KuLFgg5kuyF6WsT7PSboRnEVFrfngKuCxIYqvVhXxE4%3d&risl=&pid=ImgRaw&r=0');
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-.heading {
-  color: #ffffff;
-  font-family: robot;
-  margin-left: 60px;
-  font-size: 40px;
-  padding-top: 100px;
-  width: 100px;
-}
-.paragraph {
-  color: black;
-  margin-left: 60px;
-  width: 300px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.button {
-  color: red;
-  border: none;
-  margin-left: 60px;
-  border-radius: 5px;
-  padding: 5px;
-}
-.heading2 {
-  text-align: center;
-  font-size: 40px;
-  font-family: roboto;
-}
-.offers {
-  color: darkblue;
-  font-weight: 300;
-  margin-left: 70px;
-  font-size: 40px;
-  margin-top: 50px;
-  text-decoration: underline;
-}
-.offer {
-  font-size: 20px;
-  font-family: roboto;
-  margin-left: 70px;
-}
-.clip-container {
-  display: flex;
-  flex-direction: row;
+@media only screen and (min-width: 767px) {
+  .image-container-home {
+    background-image: url('https://th.bing.com/th/id/R.46ef0f2f42982e8f579c89f6356a94bc?rik=QRUgShlLmURgCw&riu=http%3a%2f%2fdarwinbiz.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground-img_02.png&ehk=KuLFgg5kuyF6WsT7PSboRnEVFrfngKuCxIYqvVhXxE4%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0px;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: robot;
+    margin-left: 60px;
+    font-size: 40px;
+    padding-top: 100px;
+    width: 100px;
+  }
+  .paragraph {
+    color: black;
+    margin-left: 60px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .button {
+    color: red;
+    border: none;
+    margin-left: 60px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .heading2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto;
+  }
+  .offers {
+    color: darkblue;
+    font-weight: 300;
+    margin-left: 70px;
+    font-size: 40px;
+    margin-top: 50px;
+    text-decoration: underline;
+  }
+  .offer {
+    font-size: 20px;
+    font-family: roboto;
+    margin-left: 70px;
+  }
+  .clip-container {
+    display: flex;
+    flex-direction: row;
 
-  margin-top: 50px;
-  justify-content: space-around;
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  .image1 {
+    height: 120px;
+    width: 140px;
+    margin-left: 80px;
+  }
+  .n1 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+    margin-left: 50px;
+  }
+  .image2 {
+    height: 100px;
+    width: 150px;
+  }
+  .n2 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+    margin-left: 20px;
+  }
+  .image3 {
+    height: 120px;
+    width: 150px;
+  }
+  .n3 {
+    margin-left: 30px;
+    font-family: roboto;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+  }
+  .image4 {
+    height: 120px;
+  }
+  .n4 {
+    margin-left: 50px;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 0px;
+    color: black;
+    text-decoration: none;
+  }
+  .n5 {
+    margin-left: 50px;
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 0px;
+    color: black;
+    text-decoration: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .footer-container {
+    background-color: #3a6fb4;
+    padding: 30px;
+    width: 100vw;
+    margin-top: 40px;
+    display: flex;
+  }
+  .about {
+    color: #ffffff;
+    font-family: roboto;
+  }
+  .list {
+    list-style-type: none;
+    padding: 8px;
+  }
+  .heading-about {
+    font-size: 25px;
+  }
+  .about2 {
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: roboto;
+  }
+  .l {
+    color: #ffffff;
+  }
+  .heading-about-2 {
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  .button2 {
+    background-color: #3a6fb4;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 100px;
+  }
 }
-.image1 {
-  height: 120px;
-  width: 140px;
-  margin-left: 80px;
-}
-.n1 {
-  color: black;
-  font-size: 15px;
-  font-family: roboto;
-  margin-left: 50px;
-}
-.image2 {
-  height: 100px;
-  width: 150px;
-}
-.n2 {
-  color: black;
-  font-size: 15px;
-  font-family: roboto;
-  margin-left: 20px;
-}
-.image3 {
-  height: 120px;
-  width: 150px;
-}
-.n3 {
-  margin-left: 30px;
-  font-family: roboto;
-  font-size: 15px;
-  color: black;
-  text-decoration: none;
-}
-.image4 {
-  height: 120px;
-}
-.n4 {
-  margin-left: 50px;
-  font-family: roboto;
-  font-size: 15px;
-  margin-top: 0px;
-  color: black;
-  text-decoration: none;
-}
-.n5 {
-  margin-left: 50px;
-  font-family: roboto;
-  font-size: 15px;
-  margin-top: 0px;
-  color: black;
-  text-decoration: none;
-}
-.link {
-  text-decoration: none;
-}
-.footer-container {
-  background-color: #3a6fb4;
-  padding: 30px;
-  width: 100vw;
-  margin-top: 40px;
-  display: flex;
-}
-.about {
-  color: #ffffff;
-  font-family: roboto;
-}
-.list {
-  list-style-type: none;
-  padding: 8px;
-}
-.heading-about {
-  font-size: 25px;
-}
-.about2 {
-  margin-left: 100px;
-  color: #ffffff;
-  font-family: roboto;
-}
-.l {
-  color: #ffffff;
-}
-.heading-about-2 {
-  text-decoration: underline;
-  font-size: 25px;
-}
-.button2 {
-  background-color: #3a6fb4;
-  color: black;
-  border: none;
-  padding: 8px;
-  border-radius: 10px;
-  margin-left: 500px;
-  margin-top: 40px;
-  width: 100px;
+@media only screen and (max-width: 767px) {
+  .home-container {
+    max-width: 400px;
+  }
+  .image-container-home {
+    background-image: url('https://th.bing.com/th/id/R.46ef0f2f42982e8f579c89f6356a94bc?rik=QRUgShlLmURgCw&riu=http%3a%2f%2fdarwinbiz.com%2fwp-content%2fuploads%2f2015%2f11%2fbackground-img_02.png&ehk=KuLFgg5kuyF6WsT7PSboRnEVFrfngKuCxIYqvVhXxE4%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    height: 100vh;
+
+    max-width: 400px;
+  }
+  .heading {
+    color: #ffffff;
+    font-family: robot;
+    margin-left: 60px;
+    font-size: 30px;
+    padding-top: 40px;
+    width: 160px;
+  }
+  .paragraph {
+    color: black;
+    margin-left: 60px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .button {
+    color: red;
+    border: none;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .heading2 {
+    font-size: 25px;
+    margin-left: 10px;
+    font-family: roboto;
+  }
+  .offers {
+    color: darkblue;
+    font-weight: 300;
+
+    font-size: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .offer {
+    font-size: 015x;
+    font-family: roboto;
+    margin-left: 20px;
+  }
+  .s1 {
+    text-align: center;
+  }
+  .s2 {
+    text-align: center;
+  }
+  .s3 {
+    text-align: center;
+  }
+  .s4 {
+    text-align: center;
+  }
+  .s5 {
+    text-align: center;
+  }
+  .n1 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+
+    text-align: center;
+  }
+  .n2 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+
+    text-align: center;
+  }
+  .n3 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+
+    text-align: center;
+  }
+  .n4 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+
+    text-align: center;
+  }
+  .n5 {
+    color: black;
+    font-size: 15px;
+    font-family: roboto;
+
+    text-align: center;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .button2 {
+    background-color: #3a6fb4;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+  }
+  .footer-container {
+    display: none;
+  }
 }

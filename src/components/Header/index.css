@@ -3,13 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-}
-
-@media (max-width: 575px) {
-  .header-container {
-    padding: 15px;
-  }
 }
 
 .logo-and-title-container {
@@ -18,9 +11,10 @@
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin-right: 8px;
+  margin-left: 20px;
 }
 
 .title {
@@ -56,13 +50,44 @@
 .s1 {
   font-family: playfair display;
   color: #1a6bed;
-  font-size: 33px;
+  font-size: 30px;
   margin-left: 5px;
   margin-top: 0px;
 }
 .s2 {
   color: black;
   font-family: playfair;
-  font-size: 26px;
+  font-size: 22px;
   margin-left: 5px;
+}
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+  }
+  .logo {
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+    margin-left: 20px;
+  }
+  .nav-items-list {
+    display: none;
+    padding-left: 0px;
+  }
+  .s1 {
+    font-family: playfair display;
+    color: #1a6bed;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+  .s2 {
+    color: black;
+    font-family: playfair;
+    font-size: 15px;
+    margin-left: 5px;
+  }
 }

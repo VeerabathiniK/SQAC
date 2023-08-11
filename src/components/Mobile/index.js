@@ -49,8 +49,8 @@ const Mobile = () => (
           </p>
           <p className="paragraph-point">
             * Having long years of experience and being adept at various
-            technologies, Wissen can meet any requirement of customers – old or
-            new.
+            technologies, Amrutha Systems can meet any requirement of customers
+            – old or new.
           </p>
         </div>
         <div className="mobile-image-container">
