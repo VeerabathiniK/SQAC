@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale = 1.0" />
+    <title>React App</title>
+    <link rl="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      className="sheet-container"
+      onSubmit="sendEmail(); reset(); return false;"
+    >
+      <input className="name" placeholder="Enter Your name" type="text" />
+      <input className="name" placeholder="Enter Your Email" type="email" />
+      <input
+        className="name"
+        placeholder="Enter Your mobile no"
+        type="number"
+      />
+      <textarea cols="40" rows="10" className="text-area">
+          Write Your Message
+        </textarea
+      >
+
+      <button className="btn" type="submit">Submit</button>
+    </form>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: 'smtp.gmail.com',
+          Username: 'amruthasystems311@gmail.com',
+          Password: 'Amrutha_123',
+          To: 'amruthasystems311@gmail.com',
+          From: document.getElementById('email').value,
+          Subject: 'This is the subject',
+          Body: 'And this is the body',
+        }).then(message => alert(message))
+      }
+    </script>
+  </body>
+</html>

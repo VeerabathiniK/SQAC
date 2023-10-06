@@ -1,0 +1,89 @@
+@media screen and (min-width: 767px) {
+  .last-footer {
+    background-image: url('https://images.pexels.com/photos/6465/man-field-smartphone-yellow.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    width: 100vw;
+    color: red;
+  }
+
+  .footer-container {
+    padding: 30px;
+
+    display: flex;
+  }
+  .about {
+    color: #ffffff;
+    font-family: roboto;
+    margin-left: 80px;
+  }
+  .list {
+    list-style-type: none;
+    padding: 8px;
+  }
+  .heading-about {
+    font-size: 25px;
+  }
+  .about2 {
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: roboto;
+  }
+  .l {
+    color: #ffffff;
+  }
+  .heading-about-2 {
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  .button2 {
+    background-color: #3a6fb4;
+    color: black;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 680px;
+    margin-top: 40px;
+    width: 100px;
+  }
+  .follow {
+    text-align: center;
+    font-family: roboto;
+    color: #48175f;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .symbol-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .linked-in {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+  }
+  .facebook {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .instagram {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .youTube {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+}

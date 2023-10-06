@@ -47,10 +47,13 @@
     text-align: flex-end;
     background-color: #052b47;
     padding: 30px;
-    margin-left: 700px;
-    width: 400px;
+
+    margin-top: 20px;
+
     height: 400px;
-    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
   }
   .name {
     padding: 10px;
@@ -62,6 +65,11 @@
   .btn {
     border: none;
     background-color: chartreuse;
+    margin-left: 20px;
+  }
+  .address-container {
+    margin-left: 400px;
+    margin-top: 50px;
   }
   .address-heading {
     color: green;
@@ -70,7 +78,7 @@
     font-size: 20px;
   }
   .address-paragraph {
-    color: black;
+    color: #ffff;
     font-family: roboto;
     margin-left: 65px;
     font-size: 15px;
@@ -84,6 +92,10 @@
   }
   .address-paragraph2 {
     margin-left: 65px;
+    color: #ffff;
+  }
+  .sheet-container {
+    width: 200px;
   }
 }
 @media only screen and (max-width: 767px) {

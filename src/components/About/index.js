@@ -1,5 +1,7 @@
 import './index.css'
 
+import Footer from '../Footer'
+
 const About = () => (
   <div className="about-container-last">
     <div className="about-image-container-last">
@@ -27,6 +29,7 @@ const About = () => (
       Offshore Web Development caters to offshore project according to
       customer’s needs and business goals.
     </p>
+    <Footer />
   </div>
 )
 export default About

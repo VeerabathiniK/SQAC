@@ -59,11 +59,13 @@ const Application = () => (
           security across systems, divisions, and geographies.
         </p>
       </div>
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmb0owtqwx7lp_J_eEQKvBE0uiKDOavYr0SzbWe8MEKCFVdFOd&s"
-        alt="apl1"
-        className="apl-1"
-      />
+      <div className="security">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmb0owtqwx7lp_J_eEQKvBE0uiKDOavYr0SzbWe8MEKCFVdFOd&s"
+          alt="apl1"
+          className="apl-1"
+        />
+      </div>
     </div>
   </div>
 )

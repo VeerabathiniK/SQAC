@@ -1,92 +1,215 @@
 /* Write your CSS code here */
+@media only screen and (min-width: 767px) {
+  .about-container {
+    padding: 25px;
+    background-color: #1e5158;
+  }
+  .about-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: roboto;
+    text-decoration: underline;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+  }
+  .card1 {
+    background-image: url('https://th.bing.com/th/id/OIP.nFZ8r-nls7fC97_b0yotgQHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  .card1:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  .h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 800;
+  }
+  .card2 {
+    background-image: url('https://disputescentre.com.au/wp-content/uploads/2016/12/Skills-Training.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  .card2:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  .card3 {
+    background-image: url('https://wwwcdn.frost.com/wp-content/uploads/2021/08/mobile-services.jpg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    border-radius: 20px;
+    transition: 1s;
+  }
+  .card3:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  .card4 {
+    background-image: url('https://www.cloudgate.co.za/wp-content/uploads/2020/03/AdobeStock_281616109-2048x1260.jpeg');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 60px;
+    transition: 1s;
+  }
+  .card4:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  .second {
+    display: flex;
+    margin-left: 170px;
+  }
+  .card5 {
+    background-image: url('https://th.bing.com/th/id/R.80ede28ca4e1fd74c89c750209bca987?rik=BaerlJzigRsqdw&riu=http%3a%2f%2fmaslintechnologies.com%2fimages%2ftechnical-support.jpg&ehk=SS4ucFG8FYwxhDxPBoW6Z2yRJFnnBcvbvnG7tGbX%2frg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+    border-radius: 20px;
+    margin-top: 60px;
+    transition: 1s;
+  }
+  .card5:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
 
-.about-container {
-  padding: 25px;
-  background-color: #1e5158;
+  .nav {
+    text-decoration: none;
+  }
+  .footer-content-container {
+    margin-top: 0px;
+  }
 }
-.about-heading {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 0px;
-  color: #ffffff;
-  font-family: roboto;
-  text-decoration: underline;
-}
-.card-container {
-  display: flex;
-  flex-direction: row;
-}
-.card1 {
-  background-image: url('https://th.bing.com/th/id/OIP.nFZ8r-nls7fC97_b0yotgQHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 40px;
-  border-radius: 20px;
-}
-.h1 {
-  color: #ffffff;
-  text-align: center;
-  font-family: roboto;
-  font-weight: 800;
-}
-.card2 {
-  background-image: url('https://disputescentre.com.au/wp-content/uploads/2016/12/Skills-Training.jpg');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
-  border-radius: 20px;
-}
-.card3 {
-  background-image: url('https://wwwcdn.frost.com/wp-content/uploads/2021/08/mobile-services.jpg');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 60px;
-  border-radius: 20px;
-}
-.card4 {
-  background-image: url('https://www.cloudgate.co.za/wp-content/uploads/2020/03/AdobeStock_281616109-2048x1260.jpeg');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 200px;
-  border-radius: 20px;
-  margin-top: 60px;
-}
-.second {
-  display: flex;
-}
-.card5 {
-  background-image: url('https://th.bing.com/th/id/R.80ede28ca4e1fd74c89c750209bca987?rik=BaerlJzigRsqdw&riu=http%3a%2f%2fmaslintechnologies.com%2fimages%2ftechnical-support.jpg&ehk=SS4ucFG8FYwxhDxPBoW6Z2yRJFnnBcvbvnG7tGbX%2frg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
-  height: 200px;
-  width: 300px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-left: 200px;
-  border-radius: 20px;
-  margin-top: 60px;
-}
-.nav {
-  text-decoration: none;
+@media only screen and (max-width: 767px) {
+  .about-container {
+    padding: 25px;
+    background-color: #1e5158;
+  }
+  .about-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: roboto;
+    text-decoration: underline;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .card1 {
+    background-image: url('https://th.bing.com/th/id/OIP.nFZ8r-nls7fC97_b0yotgQHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .card2 {
+    background-image: url('https://disputescentre.com.au/wp-content/uploads/2016/12/Skills-Training.jpg');
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+  .card3 {
+    background-image: url('https://wwwcdn.frost.com/wp-content/uploads/2021/08/mobile-services.jpg');
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .card4 {
+    background-image: url('https://www.cloudgate.co.za/wp-content/uploads/2020/03/AdobeStock_281616109-2048x1260.jpeg');
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  .card5 {
+    background-image: url('https://th.bing.com/th/id/R.80ede28ca4e1fd74c89c750209bca987?rik=BaerlJzigRsqdw&riu=http%3a%2f%2fmaslintechnologies.com%2fimages%2ftechnical-support.jpg&ehk=SS4ucFG8FYwxhDxPBoW6Z2yRJFnnBcvbvnG7tGbX%2frg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1');
+    height: 150px;
+    width: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
 }

@@ -1,36 +1,76 @@
-.about-image-container-last {
-  background-image: url('https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/9ZRv/image/gVTrWdTQ1n94CR1cPPTxq5HB-UY.jfif');
-  height: 100vh;
-  background-size: cover;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 767px) {
+  .about-image-container-last {
+    background-image: url('https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/9ZRv/image/gVTrWdTQ1n94CR1cPPTxq5HB-UY.jfif');
+    height: 100vh;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-heading3 {
+    color: #ffff;
+    margin-left: 400px;
+    font-family: roboto;
+    width: 600px;
+    font-size: 40px;
+  }
+  .paragraph-about {
+    color: #ffff;
+    margin-left: 400px;
+    font-family: roboto;
+    width: 600px;
+    font-size: 20px;
+  }
+  .history {
+    color: #104150;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+  }
+  .paragraph-about-last {
+    color: black;
+    margin-left: 80px;
+    width: 1000px;
+    padding: 20px;
+  }
 }
-.about-heading3 {
-  color: #ffff;
-  margin-left: 400px;
-  font-family: roboto;
-  width: 600px;
-  font-size: 40px;
-}
-.paragraph-about {
-  color: #ffff;
-  margin-left: 400px;
-  font-family: roboto;
-  width: 600px;
-  font-size: 20px;
-}
-.history {
-  color: #104150;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 200;
-}
-.paragraph-about-last {
-  color: black;
-  margin-left: 30px;
-  width: 1000px;
-  padding: 20px;
+@media only screen and (max-width: 767px) {
+  .about-image-container-last {
+    background-image: url('https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/9ZRv/image/gVTrWdTQ1n94CR1cPPTxq5HB-UY.jfif');
+    height: 60vh;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-heading3 {
+    color: #ffff;
+    margin-left: 40px;
+    font-family: roboto;
+    width: 300px;
+    font-size: 20px;
+  }
+  .paragraph-about {
+    color: #ffff;
+    margin-left: 40px;
+    font-family: roboto;
+    width: 300px;
+    font-size: 10px;
+  }
+  .history {
+    color: #104150;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+  }
+  .paragraph-about-last {
+    color: black;
+    margin-left: 0px;
+    width: 300px;
+    padding: 20px;
+  }
 }

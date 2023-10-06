@@ -32,11 +32,21 @@
   }
   .image-cloud-container {
     width: 50%;
+    transition: 1s;
+  }
+  .image-cloud-container:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
   .content-cloud {
     margin-top: 30px;
     margin-left: 30px;
     width: 50%;
+    transition: 1s;
+  }
+  .content-cloud:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
   .cloud-heading1 {
     font-family: roboto;
@@ -52,6 +62,11 @@
     padding: 40px;
     background-color: #b6bfcd;
     margin-top: 0px;
+    transition: 1s;
+  }
+  .main-cloud-container2:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
   .content-cloud2 {
     margin-top: 30px;

@@ -1,5 +1,8 @@
 // Write your JS code here
-import {Link} from 'react-router-dom'
+
+import Footer from '../Footer'
+import Storage from '../Storage'
+
 import './index.css'
 
 const Contact = () => (
@@ -30,35 +33,20 @@ const Contact = () => (
       </p>
     </div>
     <div className="sheet">
-      <input className="name" placeholder="Enter Your name" type="text" />
-      <input
-        className="name"
-        placeholder="Enter Your Password"
-        type="password"
-      />
-      <input
-        className="name"
-        placeholder="Enter Your mobile no"
-        type="number"
-      />
-      <textarea cols="40" rows="10" className="text-area">
-        Write Your Message
-      </textarea>
-      <Link to="/">
-        <button className="btn" type="button">
-          Submit
-        </button>
-      </Link>
+      <Storage />
+      <div className="address-container">
+        <h1 className="address-heading">Head Office :</h1>
+        <p className="address-paragraph">
+          Manjeera Trinity Corp, Survey No: 1050, Plot No. S2 JNTU, Hitech City
+          Rd, 8th floor, Cabin 820, Kukatpally, Hyderabad - 500072.
+        </p>
+        <a href="mailto: info@amruthasys.com" className="mail">
+          info@amruthasys.com
+        </a>
+        <p className="address-paragraph2">Send us your query anytime!</p>
+      </div>
     </div>
-    <h1 className="address-heading">Head Office :</h1>
-    <p className="address-paragraph">
-      Manjeera Trinity Corp, Survey No: 1050, Plot No. S2 JNTU, Hitech City Rd,
-      8th floor, Cabin 820, Kukatpally, Hyderabad - 500072.
-    </p>
-    <a href="mailto: info@amruthasys.com" className="mail">
-      info@amruthasys.com
-    </a>
-    <p className="address-paragraph2">Send us your query anytime!</p>
+    <Footer />
   </>
 )
 

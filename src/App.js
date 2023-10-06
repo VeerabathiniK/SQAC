@@ -2,6 +2,7 @@ import {Route, Switch} from 'react-router-dom'
 
 import Header from './components/Header'
 import Home from './components/Home'
+import Blogs from './components/Blogs'
 import Services from './components/Services'
 import Contact from './components/Contact'
 
@@ -18,12 +19,13 @@ const App = () => (
   <div className="app-container">
     <div className="main">
       <Header />
+
       <div className="sub-app-container">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services" component={Services} />
           <Route exact path="/contact" component={Contact} />
-
+          <Route exact path="/blogs" component={Blogs} />
           <Route exact path="/about" component={About} />
           <Route exact path="/careers" component={Careers} />
           <Route exact path="/training" component={Training} />

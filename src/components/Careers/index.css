@@ -3,73 +3,72 @@
     padding: 30px;
   }
   .image-container {
-    height: 100vh;
+    height: 30vh;
+    width: 100vw;
     background-size: cover;
-    padding: 40px;
-    background-image: url('https://media.licdn.com/dms/image/D4D12AQFteOxOrNBbfg/article-cover_image-shrink_600_2000/0/1677830532727?e=2147483647&v=beta&t=abeM0hNdn-cFTXZp0We-T7P4WSX0m7ibkrEgFPkpJuw');
-    display: flex;
+    padding: 30px;
+    background-image: url('https://images.pexels.com/photos/7130496/pexels-photo-7130496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   }
   .heading-career {
-    color: #f28705;
-    font-size: 70px;
+    color: #29375a;
+    font-size: 50px;
     font-family: roboto;
+    margin-left: 30px;
+  }
+  .paragraph-career {
+    color: #ada812;
+    margin-left: 30px;
+    font-size: 30px;
   }
   .image-container2-career {
     background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Blue-Wallpaper-For-Background-1.jpg');
-    height: 40vh;
+    height: 90vh;
     width: 100vw;
-    padding: 60px;
+    padding: 40px;
     margin-top: 10px;
-    display: flex;
-    flex-direction: row;
   }
   .join-heading {
-    color: #ffb508;
+    color: #c3ff00;
     font-family: roboto;
     font-size: 40px;
-    width: 400px;
   }
   .join-paragraph {
-    font-family: roboto;
+    font-family: bree-serif;
     font-size: 20px;
-    color: #ffff;
+    color: #00fff2;
+    font-weight: 500;
+    text-decoration: underline;
   }
   .role-container {
-    margin-left: 300px;
     margin-top: 30px;
   }
   .roles {
-    color: #ffff;
+    color: #b5c15e;
     font-family: roboto;
+    font-weight: 500;
   }
-  .contact-career-container {
-    height: 40vh;
-    width: 100vw;
-    background-color: #e7a200;
-    margin-top: 10px;
-    padding: 30px;
-  }
+
   .hf {
     text-align: center;
     font-family: roboto;
     font-weight: 800;
-    color: #ffff;
+    color: #e09577;
     width: 350px;
-    margin-left: 350px;
+    margin-left: 400px;
   }
   .pf {
     font-weight: bold;
     font-size: 30px;
     font-family: roboto;
-    margin-left: 400px;
+    margin-left: 450px;
   }
   .last-button {
     background-color: black;
-    color: #ffff;
+    color: #e09577;
     border-radius: 10px;
     border: none;
     padding: 10px;
-    margin-left: 450px;
+    margin-left: 500px;
   }
 }
 

@@ -1,0 +1,54 @@
+.sheet {
+  text-align: flex-end;
+  background-color: #052b47;
+  padding: 30px;
+
+  margin-top: 20px;
+
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  padding: 10px;
+  margin: 20px;
+}
+.text-area {
+  margin-left: 20px;
+}
+.btn {
+  border: none;
+  background-color: chartreuse;
+  margin-left: 20px;
+}
+.address-container {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.address-heading {
+  color: green;
+  font-family: roboto;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.address-paragraph {
+  color: #ffff;
+  font-family: roboto;
+  margin-left: 65px;
+  font-size: 15px;
+  width: 150px;
+}
+.mail {
+  color: green;
+  font-family: roboto;
+  margin-left: 60px;
+  font-size: 20px;
+}
+.address-paragraph2 {
+  margin-left: 65px;
+  color: #ffff;
+}
+.sheet-container {
+  width: 200px;
+}

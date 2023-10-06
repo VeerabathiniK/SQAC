@@ -39,10 +39,22 @@
   }
   .mobile-image-container {
     width: 50%;
+    transition: 1s;
+  }
+  .mobile-image-container:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
   .mobile-main-points {
     width: 50%;
     margin-top: 40px;
+  }
+  .mobile-main-points {
+    transition: 1s;
+  }
+  .mobile-main-points:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
   .point {
     font-family: roboto;
@@ -57,6 +69,11 @@
     width: 50%;
     margin-top: 40px;
     margin-left: 100px;
+    transition: 1s;
+  }
+  .mobile-main-points2:hover {
+    transform: scale(1.1);
+    z-index: 1;
   }
 }
 @media only screen and (max-width: 767px) {

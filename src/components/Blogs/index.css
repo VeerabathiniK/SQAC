@@ -1,0 +1,63 @@
+.blogs-container {
+  padding: 20px;
+  background-color: #7c7a86;
+  padding-left: 170px;
+  padding-top: 50px;
+}
+.blog-heading {
+  width: 70vw;
+  font-family: roboto;
+  text-align: center;
+  padding: 15px;
+  border-top-right-radius: 30px;
+  color: #aed718;
+}
+.blog-list-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.al {
+  display: flex;
+  flex-direction: column;
+}
+.al-image {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+.link-al {
+  margin-top: 15px;
+  color: #6e18d7;
+  font-weight: bold;
+  width: 250px;
+}
+.al-paragraph {
+  width: 250px;
+  font-size: 12px;
+}
+.machine {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+.bigData {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+.second-list-blog-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.robo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+}
+.digital {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
